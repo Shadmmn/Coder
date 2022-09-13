@@ -1,0 +1,83 @@
+.navbar {
+  background-color: #3A3845;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly; }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 2% 5%; }
+  .navbar a:hover {
+    text-decoration: underline;
+    background-color: #826F6630; }
+
+.head-home {
+  text-align: center;
+  padding: 5%;
+  background-color: #E0C097; }
+  .head-home h1 {
+    font-size: 3em; }
+  .head-home h2 {
+    font-size: 2em; }
+  .head-home p {
+    font-size: 1em;
+    padding: 5%; }
+
+.main-home {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.sec-main-home {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  gap: 5%; }
+
+.footer {
+  background-color: #2B2B2B;
+  padding: 2% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.nav-footer {
+  display: flex;
+  flex-direction: column; }
+  .nav-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 50% 0%; }
+  .nav-footer a:hover {
+    text-decoration: underline; }
+
+body {
+  background-color: #EDDFB3;
+  color: #1C0A00;
+  margin: 0%;
+  padding: 0%; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7D5A50;
+  padding: 10%; }
+  .formulario input {
+    text-align: center;
+    padding: 1%; }
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50em; }
+
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2%; }

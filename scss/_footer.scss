@@ -1,0 +1,20 @@
+.footer{
+    background-color: #2B2B2B;
+    padding:2% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-footer{
+    display: flex;
+    flex-direction: column;
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 50% 0%;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
