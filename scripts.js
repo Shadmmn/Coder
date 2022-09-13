@@ -1,20 +1,10 @@
-
-function mostrar(animal = prompt("que animal eres")) {
-if(animal === "perro"){
-    alert("woof")
-}
-else if(animal === "gato"){
-    alert("meow")
-}else if(animal === "caballo"){
-    alert("hiii")
-}else if(animal === "pato"){
-    alert("cuack")
-}else if(animal === "gallo"){
-    alert("cococorococoooo")
-}else if(animal === "leon"){
-    alert("rooooooar")
-}
-else{
-    alert("no conozco ese bicho")
-}
+//
+function Calcular() {
+    const monto = document.querySelector("#monto").value;
+    let meses = document.querySelector("#meses").value
+    let inter = (meses * 0.25);
+    const interes = (monto * inter) / meses;
+    const total = ((monto / meses) + interes).toFixed(2);
+    document.querySelector("#total")
+        alert ("Cuotas de : " + total);
 }
